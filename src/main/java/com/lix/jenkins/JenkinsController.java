@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class JenkinsController {
     @GetMapping("jenkinsGet")
     public String jenkinsGet() {
+        System.out.println("幽幽潜行1");
         return "Jenkins-success";
     }
 }
